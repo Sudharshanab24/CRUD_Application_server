@@ -1,5 +1,5 @@
 import router from './router/index.js'
-import userRouter from './router/users.js'
+
 
 import express from "express"
 
@@ -13,7 +13,7 @@ app.get('/',(req,res)=>{
 
 
 app.use(router)
-app.use("/family",userRouter)
+
 
 
 
